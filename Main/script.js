@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function fetchWeather(city) {
-        const apiKey = 'c491ed0312f54385a0a100347240905'; // API key provided
+        const apiKey = 'c491ed0312f54385a0a100347240905'; // Get Your Own APi Key by signup on below URL-go to documentation and generate key
         const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
         fetch(url)
